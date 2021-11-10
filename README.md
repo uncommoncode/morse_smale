@@ -6,6 +6,25 @@ on these extrema.
 
 ![Example Screenshot](/images/screenshot.png)
 
+# Installation
+
+Requirements:
+
+ * `blas`
+ * `lapack`
+
+You can install these with Ubuntu or Debian distros with `apt`:
+
+```
+sudo apt-get install libblas-dev liblapack-dev
+```
+
+Finally can use pip to complete installation:
+
+```
+pip install -U git+https://github.com/uncommoncode/morse_smale
+```
+
 # Usage
 
 The common usage will be to create partitions for given sample points and scalar
