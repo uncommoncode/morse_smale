@@ -31,6 +31,7 @@ setup(name='morsesmale',
       description='Morse Smale Complex approximation and visualization library providing a topological exploration of '
                   'manifolds',
       setup_requires=['numpy', 'cython'],
+      install_requires=['numpy'],
       py_modules=['morse_smale'],
       author="Emmett McQuinn",
       ext_modules=cythonize(cmorsesmale_module))
