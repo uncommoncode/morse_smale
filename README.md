@@ -19,7 +19,7 @@ You can install these with Ubuntu or Debian distros with `apt`:
 sudo apt-get install libblas-dev liblapack-dev
 ```
 
-Finally can use pip to complete installation:
+Finally use `pip` to complete installation:
 
 ```
 pip install -U git+https://github.com/uncommoncode/morse_smale
